@@ -1,0 +1,177 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #00467f, #a5cc82);
+  padding: 2px;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.App > h1 {
+  color: white;
+}
+
+.title-container {
+  margin-top: 80px;
+  color: white;
+  padding: 12px;
+}
+
+.title-container h3 {
+  font-size: 40px;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+  height: 100%;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 5px 0;
+  border-radius: 5px;
+  height: auto;
+  align-items: center;
+
+  padding: 16px;
+  border: none;
+}
+
+.todo:nth-child(4n + 2) {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+  color: white;
+}
+
+.todo:nth-child(4n + 1) {
+  background: linear-gradient(to right, #c21500, #ffc500);
+  color: white;
+}
+
+.todo:nth-child(4n + 3) {
+  background: linear-gradient(to right, #3d7eaa, #ffe47a);
+  color: white;
+}
+
+.todo:nth-child(4n + 4) {
+  background: linear-gradient(to right, #3ca55c, #b5ac49);
+  color: white;
+}
+
+.trash-icon {
+  color: red;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.icon {
+  padding: 2px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 6px 0px rgb(85, 84, 84);
+  padding: 0 2px;
+}
+
+.edit-icon {
+  color: yellow;
+  margin-right: 10px;
+  font-weight: bolder;
+  padding: auto 4px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todoItem {
+  word-break: break-word;
+  text-align: start;
+  width: calc(100% - 105px);
+}
+
+.updateContainer .inputForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputbox {
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.submitBtn {
+  padding: 8px;
+  border: none;
+  border-radius: 0px 4px 4px 0;
+}
+
+.updateContainer .inputbox {
+  width: 80%;
+  height: 30px;
+
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.updateContainer .submitBtn {
+  padding: 8px;
+  border: none;
+  border-radius: 0px 4px 4px 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.logout,
+.login {
+  margin: 5px;
+  padding: 10px 45px;
+  border-radius: 16px;
+  background: teal;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.login-contianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-contianer input {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  background: #e7dfdf;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.signup,
+.loginbtn {
+  font-size: 16px;
+  color: teal;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: 700;
+}
